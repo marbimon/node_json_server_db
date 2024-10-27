@@ -1,0 +1,18 @@
+instalar la libreria json-server
+npm install json-server
+para arrancar el proyecto el package.json edbe estar
+configurado como
+"scripts": {
+    "start": "json-server --watch db.json"
+  }
+
+  y en la terminal se debe escribir: 
+  npm start
+
+  posteriormente se utiliza POSTMAN para probar los
+  metodos HTTP
+
+  Ahora se debe configurar GIT desde gitbash en mi caso
+  git config --global user.name "marbimon"
+  git config --global user.email marbimon@gmail.com
+
